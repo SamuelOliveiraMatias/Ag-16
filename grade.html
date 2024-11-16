@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, SCSS, JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página Grade">
+    <meta name="author" content="Samuel Oliveira Matias">
+
+    <!-- LINKS -->
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <title>Docentes</title>
+    <style>
+        .h1 {
+            color: #C8ACD6;
+        }
+
+        nav {
+            backdrop-filter: blur(10px);
+        }
+
+        .card {
+            min-width: 30%;
+            max-width: 30%;
+            min-height: 85vh;
+            max-height: 85vh;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+
+        .card-header,
+        .card-footer {
+            text-align: center;
+            padding: 20px 0 15px 0;
+            background-color: #17153B;
+        }
+
+        .list-group-item {
+            color: #C8ACD6;
+            border: 1px solid #433D8B;
+            background-color: #2E236C;
+            height: 100%;
+        }
+
+        .list-group {
+            border: 5px solid #17153B;
+        }
+
+        @media (max-width: 700px) {
+            .card {
+                min-width: 90%;
+                max-width: 90%;
+            }
+
+            body {
+                padding-bottom: 20%;
+            }
+        }
+
+        @media (min-height: 794px) {
+
+            .list-group-item {
+                padding-top: 3rem !important;
+                padding-bottom: 3rem !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="vh-100">
+        <nav class="navbar fixed-top">
+            <div class="container-fluid text-center">
+                <h1 class="h1 fs-1 text-uppercase navbar-brand">Grade Curricular</h1>
+            </div>
+        </nav>
+        <div class="d-flex align-items-center justify-content-evenly flex-column flex-md-row h-100"
+            style="padding-top: 4rem;">
+            <div class="card col-3 my-5">
+                <div class="card-header">
+                    <h2 class="card-title display-6">1º Módulo</h2>
+                </div>
+                <div style="overflow: auto;">
+                    <ul class="list-group list-group-flush h-100">
+                        <li class="list-group-item py-3 lead">Linguagem, Trabalho e Tecnologia</li>
+                        <li class="list-group-item py-3 lead">Programação e Algoritmos</li>
+                        <li class="list-group-item py-3 lead">Banco de Dados I</li>
+                        <li class="list-group-item py-3 lead">Análise e Projeto de Sistemas</li>
+                        <li class="list-group-item py-3 lead">Design Digital</li>
+                        <li class="list-group-item py-3 lead">Programação Web I</li>
+                        <li class="list-group-item py-3 lead">Fundamentos da Informática</li>
+                        <li class="list-group-item py-3 lead">Técnicas de Programação</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <h3 class="text-uppercase h3">Total </h3>
+                    <span class="display-6 fs-3">400/h semestre</span>
+                </div>
+            </div>
+
+            <div class="card col-3 my-5">
+                <div class="card-header">
+                    <h2 class="card-title display-6">2º Módulo</h2>
+                </div>
+                <div style="overflow: auto;">
+                    <ul class="list-group list-group-flush h-100">
+                        <li class="list-group-item py-3 lead">Inglês Instrumental</li>
+                        <li class="list-group-item py-3 lead">Desenvolvimento de Sistemas</li>
+                        <li class="list-group-item py-3 lead">Banco de Dados II</li>
+                        <li class="list-group-item py-3 lead">Internet e Protocolos</li>
+                        <li class="list-group-item py-3 lead">Programação de Aplicativos Mobile I</li>
+                        <li class="list-group-item py-3 lead">Programação Web II</li>
+                        <li class="list-group-item py-3 lead">Planejamento do Trabalho de Conclusão de Curso (TCC) em
+                            Desenvolvimento de Sistemas</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <h3 class="text-uppercase h3">Total </h3>
+                    <span class="display-6 fs-3">400/h semestre</span>
+                </div>
+            </div>
+
+            <div class="card col-3 my-5">
+                <div class="card-header">
+                    <h2 class="card-title display-6">3º Módulo</h2>
+                </div>
+                <div style="overflow: auto;">
+                    <ul class="list-group list-group-flush h-100">
+                        <li class="list-group-item py-3 lead">Segurança de Sistemas de Informação</li>
+                        <li class="list-group-item py-3 lead">Banco de Dados III</li>
+                        <li class="list-group-item py-3 lead">Sistemas Embarcados</li>
+                        <li class="list-group-item py-3 lead">Programação de Aplicativos Mobile II</li>
+                        <li class="list-group-item py-3 lead">Programação Web III</li>
+                        <li class="list-group-item py-3 lead">Qualidade e Teste de Software</li>
+                        <li class="list-group-item py-3 lead">Ética e Cidadania Organizacional</li>
+                        <li class="list-group-item py-3 lead">Desenvolvimento do Trabalho de Conclusão</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <h3 class="text-uppercase h3">Total </h3>
+                    <span class="display-6 fs-3">400/h semestre</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/main.min.js"></script>
+
+</body>
+
+</html>

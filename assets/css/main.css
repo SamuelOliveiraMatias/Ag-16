@@ -1,0 +1,87 @@
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  background-color: #17153B;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  background-color: transparent;
+  height: 5px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(60, 60, 60);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(75, 75, 75);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(104, 104, 104);
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+.hoverScale {
+  transition: all 0.3s ease-in-out;
+}
+.hoverScale:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  color: #C8ACD6;
+  will-change: transform;
+  background-color: #2E236C;
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.card:hover .row {
+  transform: translateZ(3rem);
+}
+
+.content {
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.fa-user-tie,
+.fa-grip,
+.fa-briefcase {
+  font-size: 20rem;
+  color: #433D8B;
+  transition: all 0.3s ease-in-out;
+}
+.fa-user-tie:hover,
+.fa-grip:hover,
+.fa-briefcase:hover {
+  color: #C8ACD6;
+}
+.fa-user-tie:active,
+.fa-grip:active,
+.fa-briefcase:active {
+  color: #C8ACD6;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

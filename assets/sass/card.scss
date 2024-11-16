@@ -1,0 +1,49 @@
+@import 'variables.scss';
+
+.hoverScale {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.card {
+    color: $sixth;
+    will-change: transform;
+    background-color: $seventh;
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease;
+    box-shadow: $first 0px 22px 70px 4px;
+
+    &:hover .row {
+        transform: translateZ(3rem);
+    }
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.fa-user-tie,
+.fa-grip,
+.fa-briefcase {
+    font-size: 20rem;
+
+    color: $eighth;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $sixth;
+    }
+
+    &:active {
+        color: $sixth;
+    }
+}
+
+.navbar {
+    box-shadow: $second 0px 20px 30px;
+}
